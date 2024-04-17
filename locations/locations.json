@@ -1427,7 +1427,7 @@
                     {
                         "name": "Kill the Ender Dragon.",
                         "access_rules": [
-                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                            "$_end, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,postgame_on",
@@ -1453,7 +1453,7 @@
                     {
                         "name": "Have the dragon egg in your inventory.",
                         "access_rules": [
-                            "$_end, [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                            "$_end, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,postgame_on",
